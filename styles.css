@@ -3,7 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+section {
+    margin-top: 200px; 
+    margin-bottom: 200px;
+}
+#projectos{
+    margin-top: 200px; 
+    margin-bottom: 200px;
+}
+#about{
+    margin-top: 200px; 
+    margin-bottom: 200px;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -89,3 +100,39 @@ a {
 a:hover {
     color: #2ecc71; 
 }
+
+.skills-container {
+    display: flex;
+    justify-content: space-between; /* Espacia las columnas uniformemente */
+    margin-top: 20px;
+}
+
+.skills-column {
+    width: 45%; /* Cada columna ocupa el 45% del ancho */
+    background-color: #34495e;
+    padding: 15px;
+    border-radius: 5px;
+    color: #ecf0f1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.skills-column h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.skills-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-column li {
+    padding: 8px 0;
+    border-bottom: 1px solid #2c3e50;
+    text-align: center;
+}
+
+.skills-column li:last-child {
+    border-bottom: none; 
+}
+
