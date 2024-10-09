@@ -11,6 +11,28 @@ section {
     margin-top: 200px; 
     margin-bottom: 200px;
 }
+/*#projectos {
+    padding: 20px;
+    background-color: #2c3e50;
+    width: 70%; 
+    margin: 0 auto; 
+} */
+
+
+#projectos {
+    padding: 20px;
+    background-color: #2c3e50;
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.projecto {
+    background-color: #34495e;
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 4px solid #2ecc71; 
+    width: 100%; 
+}
 #about{
     margin-top: 200px; 
     margin-bottom: 200px;
@@ -55,7 +77,7 @@ nav ul li a {
 }
 
 #about {
-    padding: 20px;
+    padding: 50px 20px;
     background-color: #2c3e50;
     width: 70%; 
     margin: 0 auto; 
@@ -84,7 +106,22 @@ nav ul li a {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-
+.titulo-proyectos {
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto; 
+}
+#contacto{
+    padding: 50px 20px;
+    background-color: #2c3e50;
+    width: 60%; 
+    margin: 0 auto;
+    text-align: center;
+}
+.titulos{
+ text-align: center;
+ margin-bottom: 10px;
+}
 footer {
     background-color: #1abc9c; 
     color: #ecf0f1;
@@ -103,12 +140,12 @@ a:hover {
 
 .skills-container {
     display: flex;
-    justify-content: space-between; /* Espacia las columnas uniformemente */
+    justify-content: space-between; 
     margin-top: 20px;
 }
 
-.skills-column {
-    width: 45%; /* Cada columna ocupa el 45% del ancho */
+.skills-columna {
+    width: 45%; 
     background-color: #34495e;
     padding: 15px;
     border-radius: 5px;
@@ -116,23 +153,41 @@ a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.skills-column h3 {
+.skills-columna h3 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-.skills-column ul {
+.skills-columna ul {
     list-style-type: none;
     padding: 0;
 }
 
-.skills-column li {
+.skills-columna li {
     padding: 8px 0;
     border-bottom: 1px solid #2c3e50;
     text-align: center;
 }
 
-.skills-column li:last-child {
+.skills-columna li:last-child {
     border-bottom: none; 
 }
 
+
+
+.contact-iconos {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.icono {
+    width: 50px; 
+    height: auto;
+    transition: transform 0.3s; 
+}
+
+.icono:hover {
+    transform: scale(1.1); 
+}
